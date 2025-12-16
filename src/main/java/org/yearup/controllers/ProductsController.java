@@ -42,8 +42,6 @@ public class ProductsController
         }
     }
 
-    // bug??? missing get all products http://localhost:8080/products.
-
 
     @GetMapping("{id}")
     @PreAuthorize("permitAll()")
