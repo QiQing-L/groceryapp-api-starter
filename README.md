@@ -51,7 +51,7 @@ Include screenshots or GIFs that show your application in action. Use tools like
 ![Screenshot](screenshot/insomniaPhase1test.png)
 ![Screenshot](screenshot/insomniaPhase2test.png)
 ![Screenshot](screenshot/insomniasetuptest.png)
-![Screenshot](screenshot/webUser.png)
+![Screenshot](screenshot/web.png)
 
 
 ## Future Work
