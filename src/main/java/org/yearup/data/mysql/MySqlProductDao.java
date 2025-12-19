@@ -28,9 +28,9 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
                 " AND (price >= ? OR ? = -1) " +
                 " AND (price <= ? OR ? = -1) " +
                 " AND (subcategory = ? OR ? = '') ";
-//bug 1 fixed, changed comparison "price >= ?" to "price <= ?" for minPrice and
-// added line "AND (price <= ? OR ? = -1)" for maxPrice. added PreparedStatement for maxPrice parameterIndex 5 & 6,
-// and changed parameterIndex for subCategory to 7 & 8.
+/*bug 1 fixed, changed comparison "price >= ?" to "price <= ?" for minPrice and
+ added line "AND (price <= ? OR ? = -1)" for maxPrice. added PreparedStatement for maxPrice parameterIndex 5 & 6,
+ and changed parameterIndex for subCategory to 7 & 8. */
 
         categoryId = categoryId == null ? -1 : categoryId;
         minPrice = minPrice == null ? new BigDecimal("-1") : minPrice;

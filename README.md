@@ -2,13 +2,20 @@
 
 ## Description of the Project
 
+This project is a Spring Boot–based backend API for a Grocery e-commerce web application. It represents Version 2 of an existing online store and was completed as a capstone project with a focus on backend development, debugging, and feature enhancement.
+
+The application supports common e-commerce functionality such as product browsing, searching, filtering, and user authentication. All development work is performed on the Java Spring Boot API, which connects to a MySQL database. A front-end web application is provided to demonstrate and test the API, but no front-end development is required.
 
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to , so that I can.
+- As a shopper, I want to view all grocery categories, so that I can easily browse products by category.
+- As a shopper, I want to view details for a single category, so that I can view what products it contains.
+- As an administrator, I want to add a new grocery category, so that new product types can be organized properly.
+- As an administrator, I want to update an existing category, so that I can correct or improve category information.
+- As an administrator, I want to delete a category, so that outdated or unused categories can be removed.
+- As a shopper, I want the product search and filter functionality to return accurate results, so that I can easily find grocery items that match my selected criteria.
+- As an administrator, I want updating a product to modify the existing record instead of creating duplicates, so that product information remains accurate and consistent. 
 
 
 ## Setup
@@ -28,32 +35,34 @@ Follow these steps to get your application running within IntelliJ IDEA:
 2. Select "Open" and navigate to the directory where you cloned or downloaded the project.
 3. After the project opens, wait for IntelliJ to index the files and set up the project.
 4. Find the main class with the `public static void main(String[] args)` method.
-5. Right-click on the file and select 'Run 'YourMainClassName.main()'' to start the application.
+5. Right-click on the file and select 'Run 'EasyshopApplication.main()'' to start the application.
 
 ## Technologies Used
 
 - Java: JDK corretto-17 Amazon Corretto 17.0.16
   Build system: Maven
 - IntelliJ IDEA 2025.2.1 (Community Edition)
-- **Core Java Collections:** Used `HashMap` for menu organization (`premiumToppingMenu`, `includedToppingMenu`) and `ArrayList` for storing order items and size options.
-- **Object-Oriented Programming (OOP):** Utilizes inheritance (`Pizza` extending `MenuItem`, signature pizzas extending `Pizza`) and polymorphism (`calculatePrice()` overridden across various classes) to model the menu structure.
-
+- Springboot 4.0 model Version, maven
+- 
 ## Demo
 
 Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
 
-![Screenshot]()
-![Screenshot]()
-![Screenshot]()
+![Screenshot](screenshot/insomniaPhase1test.png)
+![Screenshot](screenshot/insomniaPhase2test.png)
+![Screenshot](screenshot/insomniasetuptest.png)
+![Screenshot](screenshot/webUser.png)
 
 
 ## Future Work
 
 Outline potential future enhancements or functionalities you might consider adding:
 
-- GUI
+- change web UI
 - Add Test
-- Admin page with password
+- complete shopping cart feature 
+- add User Profile feature
+- add Checkout feature
 - refactoring 
 
 ## Resources
@@ -61,7 +70,8 @@ Outline potential future enhancements or functionalities you might consider addi
 List resources such as tutorials, articles, or documentation that helped you during the project.
 
 AI Tools Used for Project Assets:
-- [potato-sensei](https://chatgpt.com/g/g-681d378b0c90819197b16e49abe384ec-potato-sensei)
+- [chatgpt](https://chatgpt.com/), used for front end (client) topic search 
+- [http statues](https://http.cat/)
 
 
 ## Team Members
