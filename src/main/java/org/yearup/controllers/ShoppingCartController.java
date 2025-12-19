@@ -20,7 +20,6 @@ import java.security.Principal;
 @PreAuthorize("isAuthenticated()")
 public class ShoppingCartController
 {
-    // a shopping cart requires
     private ShoppingCartDao shoppingCartDao;
     private UserDao userDao;
     private ProductDao productDao;

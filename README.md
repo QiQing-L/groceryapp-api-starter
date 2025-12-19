@@ -43,7 +43,9 @@ Follow these steps to get your application running within IntelliJ IDEA:
   Build system: Maven
 - IntelliJ IDEA 2025.2.1 (Community Edition)
 - Springboot 4.0 model Version, maven
-- 
+- MySQLWorkBench
+- Insomnia 
+
 ## Demo
 
 ![Screenshot](screenshot/insomniaPhase1test.png)
@@ -68,6 +70,7 @@ Outline potential future enhancements or functionalities you might consider addi
 List resources such as tutorials, articles, or documentation that helped you during the project.
 
 AI Tools Used for Project Assets:
+- workbook and class notes
 - [chatgpt](https://chatgpt.com/), used for front end (client) topic search 
 - [http statues](https://http.cat/)
 
